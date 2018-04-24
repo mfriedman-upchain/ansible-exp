@@ -4,17 +4,30 @@
 
 It helps to quickly provision local VMs for experiments like this one. 
 
-Vagrant is **not** needed with Ansible.
+Vagrant is **not** needed with Ansible. It's just here to support the example.
+
+## Why Ansible
+
+It provides a declarative and repeatable format for provisioning VM infrastructure. 
 
 ## Steps 
 
  - Install ansible (mac: brew install ansible, Windows?...)
- - Vagrant is a tool for provisioning VMs locally for experimentation and development
- - Install vagrant to provision a few VMs locally
- - Use vagrant init to create a Vagrantfile
+ - Install Vagrant
  - Use minimal/xenial64 as the "box"
+ - The vagrant file I used is in the Git repo
+    
+        git clone https://github.com/mfriedman-upchain/ansible-exp.git
+        cd ansible-exp
+        vagrant up
  
+This should result in 2 vms running locally. 
+
+You can do then do the following (or use your browser):
+
+    curl localhost:9990 
  
+You'll see the nginx welcome page. 
  
 ## References 
  
