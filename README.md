@@ -12,6 +12,7 @@ It provides a declarative and repeatable format for provisioning VM infrastructu
 
 ## Steps 
 
+ - Install virtualbox, or the another VM tool supported by Vagrant
  - Install ansible (mac: brew install ansible, Windows?...)
  - Install Vagrant
  - Use minimal/xenial64 as the "box"
@@ -28,6 +29,12 @@ You can do then do the following (or use your browser):
     curl localhost:9990 
  
 You'll see the nginx welcome page. 
+
+## Key Ansible Concepts
+
+ - Playbooks
+ - Inventory (look it up you won't really see it in this example)
+ - There's a lot more to Ansible. 
  
 ## References 
  

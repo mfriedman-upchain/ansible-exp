@@ -6,6 +6,7 @@
   become: yes
   tasks:
     - name: Install Python # NOTE: This is the only imperative code. Everything else must be declarative.
+                           # It is here because ubuntu-minimal doesn't come with python
       raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
     - name: Install nginx
       apt:
