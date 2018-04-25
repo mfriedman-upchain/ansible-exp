@@ -26,7 +26,7 @@ This should result in 2 vms running locally.
 
 You can do then do the following (or use your browser):
 
-    curl localhost:9990 
+    curl localhost:9991
  
 You'll see the nginx welcome page. 
 
