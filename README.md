@@ -40,4 +40,5 @@ You'll see the nginx welcome page.
  
  - http://docs.ansible.com/ansible/latest/scenario_guides/guide_vagrant.html
  - https://adamcod.es/2014/09/23/vagrant-ansible-quickstart-tutorial.html
+ - http://docs.ansible.com/
  
